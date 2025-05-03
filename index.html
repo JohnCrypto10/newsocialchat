@@ -3,125 +3,83 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Friendify - Rewarding Social Platform</title>
+  <title>Welcome to Friendify</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      background: #f4f9fc;
+      padding: 0;
+      background: linear-gradient(to right, #e0f7fa, #e0f2f1);
       color: #333;
     }
 
-    header {
-      background: linear-gradient(135deg, #0088cc, #33cc99);
-      color: white;
-      padding: 50px 20px;
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
       text-align: center;
     }
 
-    .hero-image {
-      max-width: 90%;
-      height: auto;
-      border-radius: 12px;
-      margin-top: 20px;
-    }
-
-    section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-
-    h2 {
-      color: #0088cc;
-      font-size: 28px;
+    h1 {
+      font-size: 2.5em;
+      color: #00897b;
+      margin-bottom: 10px;
     }
 
     p {
-      font-size: 16px;
-      line-height: 1.6;
+      font-size: 1.1em;
+      margin-bottom: 20px;
     }
 
-    ul {
-      padding-left: 20px;
+    .hero-image {
+      width: 100%;
+      max-width: 700px;
+      border-radius: 10px;
+      margin: 20px auto;
     }
 
-    ul li {
-      margin-bottom: 10px;
-    }
-
-    .form-section {
-      background-color: #e9f6ff;
-      padding: 40px 20px;
-      text-align: center;
-      border-radius: 12px;
-      margin: 40px auto;
-      max-width: 800px;
-    }
-
-    .form-section h2 {
-      color: #006bb3;
-      font-size: 28px;
-      margin-bottom: 10px;
-    }
-
-    .form-section p {
-      font-size: 16px;
-      color: #444;
-      margin-bottom: 30px;
+    .form-container {
+      margin-top: 30px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
 
     iframe {
       width: 100%;
-      height: 800px;
+      height: 700px;
       border: none;
     }
 
-    footer {
-      text-align: center;
-      padding: 20px;
-      background-color: #f1f1f1;
-      margin-top: 50px;
-      font-size: 14px;
+    .footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #666;
     }
   </style>
 </head>
 <body>
+  <div class="container">
+    <h1>Join Friendify – Socialize and Earn!</h1>
+    <p>Be among the first to join this groundbreaking reward-based social platform. Earn points just by chatting, liking, posting, and referring friends. Convert points to money. No risk, just fun!</p>
 
-  <header>
-    <h1>Welcome to Friendify!</h1>
-    <p>The Social Platform That Pays You for Interacting</p>
-    <img class="hero-image" src="friendify_promo.png" alt="Friendify Social Platform" />
-  </header>
+    <img class="hero-image" src="friendify_promo.jpg" alt="Friendify Social Platform" />
 
-  <section>
-    <h2>Why Join Friendify?</h2>
-    <p>Friendify is a revolutionary social media network that rewards users for doing the things they already love — posting, liking, commenting, and sharing. Now your social time can pay you back!</p>
-    <ul>
-      <li>Earn points for every like, comment, post, and share.</li>
-      <li>Convert your points into real money.</li>
-      <li>Create groups, pages, and communities — earn as they grow.</li>
-      <li>Earn lifetime income as a founding member.</li>
-      <li>Invite your friends and multiply your rewards.</li>
-      <li>No risks involved — just pure social fun with real earnings.</li>
-    </ul>
-  </section>
+    <div class="form-container">
+      <h2>Register Now – Secure Your Spot!</h2>
+      <p>Fill the form below to join our waiting list and enjoy exclusive early access benefits, bonus points, and lifetime earning potential as a founding member.</p>
 
-  <section class="form-section">
-    <h2>Join the Waiting List</h2>
-    <p>Be among the first to use Friendify and enjoy exclusive early-member bonuses. You’ll get:</p>
-    <ul style="text-align:left; max-width:600px; margin:auto;">
-      <li>Free bonus points on registration.</li>
-      <li>Extra points for referring friends.</li>
-      <li>Founder member badge and earning benefits for life.</li>
-    </ul>
-    <br>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd4dTnsAHWAksnSLe-tldTpmgDgrVM_UVdBUQ-SsMftPr1-pg/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-  </section>
+      <!-- Embedded Google Form -->
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd4dTnsAHWAksnSLe-tldTpmgDgrVM_UVdBUQ-SsMftPr1-pg/viewform?embedded=true" loading="lazy">
+        Loading…
+      </iframe>
+    </div>
 
-  <footer>
-    &copy; 2025 Friendify. All rights reserved.
-  </footer>
-
+    <div class="footer">
+      &copy; 2025 Friendify. All rights reserved.
+    </div>
+  </div>
 </body>
 </html>
